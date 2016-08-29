@@ -1,7 +1,6 @@
 package hpi.datamining.sca.mise.wrapper.queries
 
 import dmf.stream.mutinf.{EstimationResult, EstimatorStream}
-import hpi.datamining.sca.mise.wrapper.ContinuousQuerySpec
 import rx.lang.scala.Subject
 
 class ContinuousQuery(mise: EstimatorStream,

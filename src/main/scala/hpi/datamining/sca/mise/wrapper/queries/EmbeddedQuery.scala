@@ -1,7 +1,6 @@
 package hpi.datamining.sca.mise.wrapper.queries
 
 import dmf.stream.mutinf.{EstimationResult, EstimatorStream}
-import hpi.datamining.sca.mise.wrapper.EmbeddedQuerySpec
 
 abstract class EmbeddedQuery(mise: EstimatorStream, spec: EmbeddedQuerySpec) {
   val id: String = java.util.UUID.randomUUID.toString

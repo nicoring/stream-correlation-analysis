@@ -2,7 +2,7 @@ package hpi.datamining.sca.mise
 
 import java.net.URL
 
-import hpi.datamining.sca.sync.sources._
+import hpi.datamining.sca.mise.wrapper.sources._
 import org.scalatest.FunSpec
 import rx.lang.scala.Observable
 

@@ -1,4 +1,4 @@
-package hpi.datamining.sca.sync.sources
+package hpi.datamining.sca.mise.wrapper.sources
 
 class CollectionSource(col: TraversableOnce[(Double, Double)]) extends MISESource {
   override def foreach(f: ((Double, Double)) => Unit): Unit = col.foreach(f)

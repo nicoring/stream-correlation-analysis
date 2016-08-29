@@ -2,7 +2,7 @@ package hpi.datamining.sca
 
 import dmf.stream.mutinf.{EstimationResult, WindowSpec}
 
-package object sync {
+package object wrapper {
 
   trait EmbeddedQuerySpec {
     def windowSpec: WindowSpec

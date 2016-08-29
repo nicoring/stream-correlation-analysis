@@ -1,9 +1,9 @@
-package hpi.datamining.sca.sync
+package hpi.datamining.sca.mise.wrapper
 
 import java.io.{BufferedWriter, File, FileWriter}
 
 import dmf.stream.mutinf.WindowSpec
-import hpi.datamining.sca.sync.sources.{MultiCsvSource, SocketSource}
+import hpi.datamining.sca.mise.wrapper.sources.{MultiCsvSource, SocketSource}
 
 import scala.concurrent.Await
 import scala.concurrent.ExecutionContext.Implicits.global

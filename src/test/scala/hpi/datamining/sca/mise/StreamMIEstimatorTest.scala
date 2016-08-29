@@ -1,7 +1,7 @@
 package hpi.datamining.sca.mise
 
 import dmf.stream.mutinf.{EstimationResult, EstimatorStream, EstimatorStreamFactory, WindowSpec}
-import hpi.datamining.sca.sync.MISESyncController
+import hpi.datamining.sca.mise.wrapper.MISESyncController
 import org.scalatest.FunSpec
 import rx.lang.scala.{Observable, Subject}
 import rx.lang.scala.subjects.ReplaySubject

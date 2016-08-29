@@ -1,4 +1,4 @@
-package hpi.datamining.sca.sync.sources
+package hpi.datamining.sca.mise.wrapper.sources
 
 object CsvSource {
 

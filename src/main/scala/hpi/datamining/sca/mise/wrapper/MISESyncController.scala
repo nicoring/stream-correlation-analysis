@@ -1,8 +1,8 @@
-package hpi.datamining.sca.sync
+package hpi.datamining.sca.mise.wrapper
 
 import dmf.stream.mutinf.{EstimationResult, EstimatorStream, WindowSpec}
 import hpi.datamining.sca.mise.{MISEController, ReferenceMISE}
-import hpi.datamining.sca.sync.queries.{ContinuousQuery, EmbeddedQuery, TriggerQuery}
+import hpi.datamining.sca.mise.wrapper.queries.{ContinuousQuery, EmbeddedQuery, TriggerQuery}
 import rx.lang.scala.Observable
 import rx.lang.scala.subjects.ReplaySubject
 

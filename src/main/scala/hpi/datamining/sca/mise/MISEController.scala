@@ -1,7 +1,7 @@
 package hpi.datamining.sca.mise
 
 import dmf.stream.mutinf.{EstimationResult, WindowSpec}
-import hpi.datamining.sca.sync.sources.{CollectionSource, MISESource, ObservableSource}
+import hpi.datamining.sca.mise.wrapper.sources.{CollectionSource, MISESource, ObservableSource}
 import rx.lang.scala.Observable
 
 import scala.concurrent.Future

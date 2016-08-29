@@ -2,7 +2,7 @@ package hpi.datamining.sca.mise
 
 import dmf.stream.mutinf.{EstimationResult, EstimatorStream, EstimatorStreamFactory, WindowSpec}
 import hpi.datamining.sca.actors.MISEActorController
-import hpi.datamining.sca.sync.MISESyncController
+import hpi.datamining.sca.mise.wrapper.MISESyncController
 
 import scala.collection.mutable.ArrayBuffer
 import scala.concurrent.Await
